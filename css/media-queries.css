@@ -1,0 +1,123 @@
+/*@media screen and (min-width: 480px) and (max-width: 1200px){*/
+
+/*}*/
+
+@media only screen and (max-width: 768px) {
+    .Sign_up, .Log_In, .online_store, .form {
+        font-size: 10px;
+        padding: 0 10px;
+        line-height: 30px;
+        min-width: 120px;
+
+    }
+    body {
+        overflow: hidden;
+    }
+.banner img {
+    height: 320px;
+}
+.menu ul{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.menu li{
+    font-size: 15px;
+
+}
+.form {
+    min-width: 120px;
+
+    /*display: inline-block;*/
+}
+.form input {
+    line-height: 30px;
+    font-size: 10px;
+
+
+}
+.form button {
+    line-height: 30px;
+    font-size: 10px;
+
+
+}
+.social{
+    line-height: 20px;
+    margin-top: 15px;
+    width: 20px;
+    margin-left: 6px;
+
+
+}
+}
+
+@media only screen and (max-width: 320px) {
+    .Sign_up, .Log_In, .online_store {
+        width: 100%;
+        text-align: center;
+        display: block;
+        /*float: none;*/
+
+    }
+
+    .container .border-top {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .form {
+        width: 80%;
+        display: block;
+        float: none;
+    }
+
+    .form button {
+        width: 20%;
+        float: none;
+        display: block;
+
+    }
+
+
+.banner  img {
+    height: 430px;
+    margin-left: -1px;
+    margin-right: -300px;
+}
+
+.banner .container h1 {
+    display: none;
+}
+
+header a img {
+    float: none;
+    width: 100%;
+}
+
+.menu ul li {
+    display: block;
+    width: 100%;
+    /*margin: auto;*/
+    float: none;
+
+}
+
+body {
+    overflow: hidden;
+}
+
+.menu a:hover {
+    border: none;
+}
+    .social{
+       text-align: center;
+        /*float: none;*/
+        display: inline-block;
+        line-height: 30px;
+
+        width: 30px;
+    }
+
+
+}
